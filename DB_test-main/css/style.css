@@ -12,11 +12,11 @@ box-sizing: border-box;
   box-sizing: inherit;
 }
   
-  .wrapper{
+.wrapper{
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
+}
   
   .container{
     margin: 0px 10vw;
