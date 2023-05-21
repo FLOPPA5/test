@@ -664,9 +664,10 @@ button[class="button-log"]:hover{
     }
     .header{
         background-image: url('titul-2-scaled.jpg');
-        max-height: 600px;
-        background-repeat:no-repeat;
+        max-height: 300px;
+        /*background-repeat:no-repeat;*/
         /*background-size: cover;*/
-        max-width: border-box;
+        max-width: 200px;
+
     }
 }
