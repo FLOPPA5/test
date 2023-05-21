@@ -647,7 +647,6 @@ button[class="button-log"]:hover{
 
 .header5{
     display:block;
-  
     min-height: 100vh;
     position:static;
     background: url(Ukraine.webp);
@@ -656,3 +655,11 @@ button[class="button-log"]:hover{
     background-position: center;
 }
 
+@media screen and (max-width: 600px){
+    html{
+    box-sizing: border-box;
+    }
+    *, *::before, *::after{
+    box-sizing: inherit;
+    }
+}
